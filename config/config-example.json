@@ -1,0 +1,15 @@
+{
+  "BOT_TOKEN": "BOT-TOKEN",
+  "BOT_USERNAME": "BOT-USERNAME",
+  "ADMINS": [123456789],
+  "OWNERS": [123456789],
+  "DB_PATH": "bot.db",
+  "VERSION": "v1.0.0",
+  "REQUIRED_CHATS": [
+    {
+      "title": "test-name",
+      "join_link": "https://t.me/YOURINVITELINK",
+      "chat_id": -100123456789
+    }
+  ]
+}

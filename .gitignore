@@ -1,0 +1,5 @@
+bot.db
+config/config.json
+config/currency_prices.json
+__pycache__
+.venv

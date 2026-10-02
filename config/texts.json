@@ -1,0 +1,93 @@
+{
+  "required_chat": {
+    "message": "🚫 برای استفاده از بات باید در کانال و گروه‌های زیر عضو شوید:",
+    "bot_not_joined": "⚠️ ربات در چت {chat_id} ({title}) عضو نیست!",
+    "bot_no_access": "❌ دسترسی به چت {chat_id} ({title}) وجود ندارد یا پیدا نشد."
+  },
+  "main_menu": {
+    "title": "به ربات استعلام قیمت استیم خوش آمدید 😍\n\n⚙️ {version}",
+    "buttons": {
+      "search_game": "🔍 جستجوی بازی",
+      "change_region": "🌐 تغییر ریجن",
+      "showfavs": "📂 لیست علاقه مندی",
+      "help": "❓ راهنما"
+    }
+  },
+  "backtomain": "🔙 بازگشت",
+  "close_menu": "❌ بستن منو ❌",
+  "dev": "<b>⚙️ {version}</b>",
+  "help": "📚 راهنما:\n1. برای جستجو بازی میتونی از دو حالت Inline و دستور /search استفاده کنی.\n2. برای تغییر ریجن هم میتونی از منو اصلی گزینه \"🌐 تغییر ریجن\" رو انتخاب کنی یا از دستور /region استفاده کنی.\n⚡️ /dev",
+  "admin": {
+    "panel_text": "<b>⚙️ پنل مدیریت</b>\n<b>اعلان کاربر جدید:</b> {user_notify_status}\n<b>سیستم یادآور علاقه مندی ها:</b> {wishlist_status}",
+    "panel_keyboard": {
+      "new_user_active": "👤 غیر فعال کردن اعلان ثبت‌نام",
+      "new_user_inactive": "👤 فعال کردن اعلان ثبت‌نام",
+      "wishlist_active": "🔕 غیر فعال کردن یادآور لیست علاقه مندی",
+      "wishlist_inactive": "🔔 فعال کردن یادآور لیست علاقه مندی",
+      "update_currency": "آپدیت دیتابیس ارز ها 🔄",
+      "reload_config": "به روز رسانی فایل کانفیگ 🔄",
+      "reload_texts": "به روز رسانی فایل متن 🔄",
+      "status": "📊 وضعیت ربات"
+    },
+    "reload_config": {
+      "success": "فایل کانفیگ با موفقیت به روز شد ✅",
+      "error": "خطا در به روز رسانی فایل کانفیگ ❌"
+    },
+    "reload_texts": {
+      "success": "فایل متن با موفقیت به روز شد ✅",
+      "error": "خطا در به روز رسانی فایل متن ❌"
+    },
+    "broadcast": {
+      "message": "برای ارسال پیام همگانی، این دستور را روی پیام مورد نظر ریپلای کنید.\nیا یک آیدی عددی بدهید.",
+      "result": "✅ <b>ارسال شد</b>\n\n🟢 موفق : {success}\n🔴 ناموفق : {failed}"
+    },
+    "ban_state_changed": "✅ وضعیت بن کاربر توسط صاحب ربات تغییر کرد",
+    "setting_saved": "✅ تنظیمات ذخیره شد",
+    "user_info": "<b>ℹ️ اطلاعات کاربر</b>\n\n<b>• شناسه:</b> <code>{user_id}</code>\n<b>• یوزرنیم:</b> @{username}\n<b>• نام:</b> {full_name}\n<b>• هش:</b> <code>{user_hash}</code>\n<b>• ثبت‌نام:</b> {created_at} <i>({created_ago} پیش)</i>\n<b>• آخرین فعالیت:</b> {last_active} <i>({last_ago} پیش)</i>\n<b>• ریجن فعلی:</b> {user_region}\n<b>• وضعیت:</b> {status}",
+    "status_result": "<b>📊 آمار ربات</b>\n• کل کاربران: <b>{total_users}</b>\n• کاربران بن شده: <b>{banned_users}</b>\n• کاربران فعال امروز: <b>{today_active}</b>",
+    "backtomenu": "🔙 بازگشت به پنل"
+  },
+  "steam": {
+    "change_region": {
+      "title": "ریجن مورد نظر خودتون رو از بین دکمه های شیشه ای زیر انتخاب کنید 🤖\n\nریجن فعلی شما: {current_region}",
+      "button": {
+        "selected": "🟢 {flag} {name_fa} 🟢",
+        "unselected": "{flag} {name_fa}"
+      },
+      "message": {
+        "region_already_selected": "ریجن فعلی شما {flag} {name_fa} می‌باشد ⚠️",
+        "region_changed": "ریجن شما به {name_fa} {flag} تغییر کرد ✅",
+        "menu_closed": "منو انتخاب ریجن بسته شد"
+      }
+    },
+    "result": {
+      "message": "🎮 <b>اسم بازی: </b>{title}\n💵 <b>قیمت: </b>{price}\n💵 <b>قیمت تومانی: </b>{price_toman}\n🌐 <b>ریجن: </b>{region}\n🕒 <b>زمان استعلام: </b>{inquiry_time}\n\n🔗 <a href='{url}'>لینک بازی در استیم</a>",
+      "price": {
+        "with_discount": "{price} {currency} ({discount_percent}% تخفیف)",
+        "without_discount": "{price} {currency}",
+        "free_or_unavailable": "Free or Unavailable"
+      },
+      "add_to_fav": "افزودن به علاقه‌مندی‌ها ❤️",
+      "not_found": "🚫 هیچ نتیجه‌ای پیدا نشد",
+      "search_command_error": "❗ نام بازی را وارد کنید\n<pre>/search NAME</pre>"
+    },
+    "favorite": {
+      "empty": "📂 لیست علاقه مندی های شما خالی است",
+      "add_success": "به علاقه‌مندی‌ها اضافه شد ❤️",
+      "add_exist": "قبلا اضافه کردی 😉",
+      "add_error": "کاربری با ایدی شما در دیتابیس یافت نشد!",
+      "remove_success": "از علاقه‌مندی‌ها حذف شد 🗑️",
+      "remove_error": "⚠️ خطا در حذف از لیست علاقه مندی",
+      "menu_closed": "لیست علاقه مندی ها بسته شد"
+    },
+    "update_currency_data": "درخواست به روز رسانی ارز ها ارسال شد ✅"
+  },
+  "errors": {
+    "access_denied": "⚠️ شما دسترسی لازم ندارید",
+    "banned": "⛔️ دسترسی شما مسدود است",
+    "private_message_only": "⚠️ این دستور فقط از طریق پیوی ربات قابل دسترسی است",
+    "invalid_command": "⚠️ فرمت دستور درست نیست",
+    "db_error": "⚠️ خطای داخلی. لطفاً دوباره تلاش کن یا به پشتیبانی پیام بده",
+    "user_notfound": "⚠️ کاربر یافت نشد"
+  }
+}
